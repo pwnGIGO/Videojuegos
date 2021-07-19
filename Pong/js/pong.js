@@ -22,7 +22,7 @@ function setup() {
   stage.interactive = true;
   // set a rectangle frame for skeleton spritesheet 
   // (x, y, height, width)
-  const rect = new PIXI.Rectangle(0, 0, 64, 64);
+  const rect = new PIXI.Rectangle(0, 0, 12, 34);
   const texture = PIXI.loader.resources["spritesheet"].texture;
   texture.frame = rect;
   sprite = new PIXI.Sprite(texture);
