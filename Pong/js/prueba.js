@@ -35,7 +35,7 @@ function setup() {
 	stage.interactive = true;
 	// set a rectangle frame for skeleton NubeVoladora 
 	// (x, y, height, width)
-	const rect = new PIXI.Rectangle(0, 0, 64, 64);
+	const rect = new PIXI.Rectangle(0, 0, 15, 15);
 	const texture = PIXI.loader.resources["NubeVoladora"].texture;
 	texture.frame = rect;
 	sprite = new PIXI.Sprite(texture);
