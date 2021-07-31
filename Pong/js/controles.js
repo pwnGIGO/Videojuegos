@@ -5,8 +5,8 @@ this.left = false;
 this.up = false;
 this.right = false;
 
-/*
 // Eventos touch: touchstart, touchmove, touchend, touchcancel
+/*
 window.addEventListener('touchstart', event => {
 	//console.log("Tocuh!", event);
 	touchX = event.touches[0].clientX;
@@ -65,14 +65,14 @@ window.addEventListener('keydown', event => {
 
 
 window.addEventListener('keyup', event => {
-//console.log(event.key)
-if (event.key === 'ArrowRight') {
-	right = false;
-} else if (event.key === 'ArrowLeft') {
-	left = false;
-} else if (event.key === 'ArrowDown') {
-	down = false;
-} else if (event.key === 'ArrowUp') {
-	up = false;
-}
+	//console.log(event.key)
+	if (event.key === 'ArrowRight') {
+		right = false;
+	} else if (event.key === 'ArrowLeft') {
+		left = false;
+	} else if (event.key === 'ArrowDown') {
+		down = false;
+	} else if (event.key === 'ArrowUp') {
+		up = false;
+	}
 })
